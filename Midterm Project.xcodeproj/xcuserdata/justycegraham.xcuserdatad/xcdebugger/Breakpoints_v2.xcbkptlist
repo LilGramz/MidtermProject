@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B2EB47D4-039E-42FE-B19E-3251DC84B0FF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BC05C0F-62A5-40BF-8E17-904B35C5AC24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Midterm Project/TypesOfCandy.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "setSelected(_:animated:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Midterm Project/CandyDetail/CandyDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CandyDetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - f6d88b01235897cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.detailCandyID.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - fd510b6691d2c7c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.detailCandyID.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - 8d935bbba9b1cbd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.detailCandyID.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - 9068472b1734fe9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.detailCandyID.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - 218988d3419eb256"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Midterm_Project.CandyDetailViewController"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "6EC001C8-B97F-4027-9548-2C8E0C525003 - 1cee5bb805fe74e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Midterm_Project.CandyDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Midterm_Project.CandyDetailViewController&gt;"
+                  moduleName = "Midterm Project"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justycegraham/Documents/csse337/Midterm%20Project/Midterm%20Project/CandyDetail/CandyDetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB26F0BC-2B66-46D3-9F3F-65A9314EADC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Midterm Project/CandyDetail/CandyDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CandyDetailViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
