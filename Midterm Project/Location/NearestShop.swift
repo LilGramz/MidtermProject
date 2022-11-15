@@ -104,7 +104,7 @@ class NearestShop: UIViewController , CLLocationManagerDelegate, MKMapViewDelega
              print (myLocation)
             let region = MKCoordinateRegion(center: myLocation.coordinate, latitudinalMeters: 40000, longitudinalMeters: 40000)
              MapView.setRegion(region, animated: true)
-        }
+        } 
         
         
     }
