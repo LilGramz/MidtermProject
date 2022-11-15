@@ -89,7 +89,7 @@
         <!--Nearest Shop-->
         <scene sceneID="qoS-ZF-oTh">
             <objects>
-                <viewController title="Nearest Shop" id="bJQ-hL-crC" customClass="NearestShop_VC" customModule="Midterm_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Nearest Shop" id="bJQ-hL-crC" customClass="NearestShop" customModule="Midterm_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ts0-Nw-Rrn">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,19 +98,6 @@
                                 <rect key="frame" x="0.0" y="167" width="390" height="510"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4L-La-WWQ">
-                                <rect key="frame" x="75" y="703" width="85" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Confirm"/>
-                                <connections>
-                                    <segue destination="yj7-R8-YS3" kind="show" id="d71-gS-5wL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3g-O1-4dG">
-                                <rect key="frame" x="182" y="703" width="133" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Get Directions"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nearest Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TnT-EV-cxw">
                                 <rect key="frame" x="75" y="91" width="240" height="49"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
@@ -119,33 +106,37 @@
                                 <color key="shadowColor" red="0.38587306700000001" green="0.29920645559999998" blue="0.2201115494" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="shadowOffset" width="-2" height="1"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4L-La-WWQ">
+                                <rect key="frame" x="153" y="708" width="85" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Confirm"/>
+                                <connections>
+                                    <segue destination="yj7-R8-YS3" kind="show" id="d71-gS-5wL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="haR-ea-Znc"/>
                         <color key="backgroundColor" red="0.68627452850000004" green="0.52941179279999995" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.38587306700000001" green="0.29920645559999998" blue="0.2201115494" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Z0x-9W-Xzg" firstAttribute="leading" secondItem="haR-ea-Znc" secondAttribute="leading" id="629-dv-Gdu"/>
-                            <constraint firstItem="Z3g-O1-4dG" firstAttribute="leading" secondItem="S4L-La-WWQ" secondAttribute="trailing" constant="22" id="9zP-pn-bQ9"/>
-                            <constraint firstItem="haR-ea-Znc" firstAttribute="bottom" secondItem="Z3g-O1-4dG" secondAttribute="bottom" constant="72" id="KlV-LG-fOU"/>
+                            <constraint firstItem="S4L-La-WWQ" firstAttribute="top" secondItem="Z0x-9W-Xzg" secondAttribute="bottom" constant="31" id="JYK-xW-ihk"/>
+                            <constraint firstItem="S4L-La-WWQ" firstAttribute="leading" secondItem="haR-ea-Znc" secondAttribute="leading" constant="153" id="O3s-go-fbl"/>
                             <constraint firstItem="TnT-EV-cxw" firstAttribute="top" secondItem="haR-ea-Znc" secondAttribute="top" id="RFm-cI-X5S"/>
                             <constraint firstItem="haR-ea-Znc" firstAttribute="trailing" secondItem="TnT-EV-cxw" secondAttribute="trailing" constant="75" id="RHd-Y4-nto"/>
                             <constraint firstItem="Z0x-9W-Xzg" firstAttribute="top" secondItem="TnT-EV-cxw" secondAttribute="bottom" constant="27" id="Slh-jp-hZl"/>
-                            <constraint firstItem="Z3g-O1-4dG" firstAttribute="leading" secondItem="S4L-La-WWQ" secondAttribute="trailing" constant="22" id="UFG-mu-Fmc"/>
+                            <constraint firstItem="haR-ea-Znc" firstAttribute="bottom" secondItem="S4L-La-WWQ" secondAttribute="bottom" constant="67" id="VJQ-Ws-zIl"/>
                             <constraint firstItem="Z0x-9W-Xzg" firstAttribute="trailing" secondItem="haR-ea-Znc" secondAttribute="trailing" id="b7b-Zb-qCh"/>
-                            <constraint firstItem="S4L-La-WWQ" firstAttribute="top" secondItem="Z0x-9W-Xzg" secondAttribute="bottom" constant="26" id="cvu-SV-46H"/>
                             <constraint firstItem="TnT-EV-cxw" firstAttribute="leading" secondItem="haR-ea-Znc" secondAttribute="leading" constant="75" id="ffF-GR-Bpv"/>
-                            <constraint firstItem="haR-ea-Znc" firstAttribute="bottom" secondItem="S4L-La-WWQ" secondAttribute="bottom" constant="72" id="iTP-xU-TM1"/>
-                            <constraint firstItem="S4L-La-WWQ" firstAttribute="top" secondItem="Z0x-9W-Xzg" secondAttribute="bottom" constant="26" id="lfY-sW-Ikt"/>
-                            <constraint firstItem="Z3g-O1-4dG" firstAttribute="top" secondItem="Z0x-9W-Xzg" secondAttribute="bottom" constant="26" id="qE4-n8-Ll2"/>
-                            <constraint firstItem="S4L-La-WWQ" firstAttribute="leading" secondItem="haR-ea-Znc" secondAttribute="leading" constant="75" id="qPu-0O-9VU"/>
-                            <constraint firstItem="haR-ea-Znc" firstAttribute="trailing" secondItem="Z3g-O1-4dG" secondAttribute="trailing" constant="75" id="ucU-0U-jTL"/>
                             <constraint firstItem="Z0x-9W-Xzg" firstAttribute="top" secondItem="TnT-EV-cxw" secondAttribute="bottom" constant="27" id="ygT-lm-Gdg"/>
+                            <constraint firstItem="haR-ea-Znc" firstAttribute="trailing" secondItem="S4L-La-WWQ" secondAttribute="trailing" constant="152" id="ynS-FW-SCF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QQi-qT-TxO"/>
                     <connections>
                         <outlet property="Confirm" destination="S4L-La-WWQ" id="XgK-4h-U0q"/>
-                        <outlet property="Directions" destination="Z3g-O1-4dG" id="Fss-B5-iuC"/>
+                        <outlet property="MapView" destination="Z0x-9W-Xzg" id="ARi-C6-H7e"/>
+                        <outlet property="confirm" destination="S4L-La-WWQ" id="JTQ-Ys-HQ4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2rA-ZD-8vG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -285,34 +276,7 @@
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVe-sn-yJp">
                                                     <rect key="frame" x="5" y="5" width="380" height="110"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Candy Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ok3-bX-y0p">
-                                                            <rect key="frame" x="235.33333333333337" y="25" width="144.66666666666663" height="60"/>
-                                                            <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JtW-nX-osJ" userLabel="Candy_Img">
-                                                            <rect key="frame" x="8" y="25" width="60" height="60"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="60" id="UQw-EE-rH5"/>
-                                                            </constraints>
-                                                        </imageView>
-                                                    </subviews>
                                                     <color key="backgroundColor" red="0.68627452850000004" green="0.52941179279999995" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    <constraints>
-                                                        <constraint firstItem="JtW-nX-osJ" firstAttribute="top" secondItem="lVe-sn-yJp" secondAttribute="top" constant="25" id="1jQ-nI-YUn"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Ok3-bX-y0p" secondAttribute="bottom" constant="25" id="6Fa-ow-t6U"/>
-                                                        <constraint firstItem="Ok3-bX-y0p" firstAttribute="top" secondItem="lVe-sn-yJp" secondAttribute="top" constant="25" id="7M2-Q6-PPQ"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Ok3-bX-y0p" secondAttribute="trailing" id="Kfk-9X-p2x"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Ok3-bX-y0p" secondAttribute="trailing" id="Ny6-WA-mFE"/>
-                                                        <constraint firstAttribute="bottom" secondItem="JtW-nX-osJ" secondAttribute="bottom" constant="25" id="Urp-ln-L4B"/>
-                                                        <constraint firstItem="Ok3-bX-y0p" firstAttribute="leading" secondItem="JtW-nX-osJ" secondAttribute="trailing" constant="167.33000000000001" id="ZHx-Tr-Hza"/>
-                                                        <constraint firstItem="JtW-nX-osJ" firstAttribute="leading" secondItem="lVe-sn-yJp" secondAttribute="leading" constant="8" id="dyw-Yf-aN0"/>
-                                                        <constraint firstAttribute="bottom" secondItem="Ok3-bX-y0p" secondAttribute="bottom" constant="25" id="gb1-NY-Igk"/>
-                                                        <constraint firstItem="Ok3-bX-y0p" firstAttribute="top" secondItem="lVe-sn-yJp" secondAttribute="top" constant="25" id="rAz-9h-2mW"/>
-                                                        <constraint firstItem="Ok3-bX-y0p" firstAttribute="leading" secondItem="JtW-nX-osJ" secondAttribute="trailing" constant="167.33000000000001" id="zIt-1l-5eS"/>
-                                                    </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -329,7 +293,6 @@
                                         <color key="backgroundColor" red="0.68627452850000004" green="0.52941179279999995" blue="0.39215683940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="CandyCell" destination="lVe-sn-yJp" id="jdo-PS-dSs"/>
-                                            <outlet property="CandyName" destination="Ok3-bX-y0p" id="IJ1-Lb-Ixq"/>
                                             <segue destination="bmE-aX-g1t" kind="show" id="p02-b6-kYa"/>
                                         </connections>
                                     </tableViewCell>
@@ -365,8 +328,6 @@
                     <navigationItem key="navigationItem" id="skJ-xd-GJA"/>
                     <connections>
                         <outlet property="CandyGroup" destination="315-a9-e4H" id="WVG-NU-XST"/>
-                        <outlet property="CandyImg" destination="JtW-nX-osJ" id="CU0-9d-mZi"/>
-                        <outlet property="CandyName" destination="Ok3-bX-y0p" id="tmO-0f-Jt4"/>
                         <outlet property="CandyPickerTable" destination="YZC-oW-25Q" id="dKR-d4-Qvk"/>
                     </connections>
                 </viewController>
@@ -377,7 +338,6 @@
         <!--View Controller-->
         <scene sceneID="JJX-bg-rPz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DyK-dC-rgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="bmE-aX-g1t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G6O-VE-Z3m">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
@@ -411,6 +371,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="bvy-A6-tAX"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DyK-dC-rgU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5611" y="867"/>
         </scene>

@@ -16,9 +16,10 @@
 		334A82D829118B87008B83C6 /* candyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A82D729118B87008B83C6 /* candyModel.swift */; };
 		334A82DA29118FF0008B83C6 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A82D929118FF0008B83C6 /* Candy.swift */; };
 		334A82E029119889008B83C6 /* HomeScreen VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A82DF29119889008B83C6 /* HomeScreen VC.swift */; };
-		334A82E42911A6A6008B83C6 /* NearestShop VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A82E32911A6A6008B83C6 /* NearestShop VC.swift */; };
 		334A82E62911AB30008B83C6 /* CustomCell TVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A82E52911AB30008B83C6 /* CustomCell TVCell.swift */; };
 		33A3FE45291318A0008C212D /* CandyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A3FE44291318A0008C212D /* CandyDetailViewController.swift */; };
+		33A3FE4A2914385A008C212D /* gpxgenerator_path.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 33A3FE492914385A008C212D /* gpxgenerator_path.gpx */; };
+		33A3FE4C29147292008C212D /* NearestShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A3FE4B29147292008C212D /* NearestShop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +34,10 @@
 		334A82D729118B87008B83C6 /* candyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = candyModel.swift; sourceTree = "<group>"; };
 		334A82D929118FF0008B83C6 /* Candy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		334A82DF29119889008B83C6 /* HomeScreen VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeScreen VC.swift"; sourceTree = "<group>"; };
-		334A82E32911A6A6008B83C6 /* NearestShop VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NearestShop VC.swift"; sourceTree = "<group>"; };
 		334A82E52911AB30008B83C6 /* CustomCell TVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomCell TVCell.swift"; sourceTree = "<group>"; };
 		33A3FE44291318A0008C212D /* CandyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyDetailViewController.swift; sourceTree = "<group>"; };
+		33A3FE492914385A008C212D /* gpxgenerator_path.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gpxgenerator_path.gpx; sourceTree = "<group>"; };
+		33A3FE4B29147292008C212D /* NearestShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestShop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		3341BCA3290F722A007A675A = {
 			isa = PBXGroup;
 			children = (
+				33A3FE492914385A008C212D /* gpxgenerator_path.gpx */,
 				3341BCAE290F722A007A675A /* Midterm Project */,
 				3341BCAD290F722A007A675A /* Products */,
 			);
@@ -68,12 +71,12 @@
 		3341BCAE290F722A007A675A /* Midterm Project */ = {
 			isa = PBXGroup;
 			children = (
+				33A3FE48291436F4008C212D /* Location */,
 				334A82FC2912121D008B83C6 /* untouchables */,
 				334A82FA2912118C008B83C6 /* Main Menu related */,
 				334A82FB291211E6008B83C6 /* CandyDetail */,
 				334A82DF29119889008B83C6 /* HomeScreen VC.swift */,
 				3341BCB5290F722A007A675A /* Main.storyboard */,
-				334A82E32911A6A6008B83C6 /* NearestShop VC.swift */,
 				3341BCB8290F722B007A675A /* Assets.xcassets */,
 				3341BCBA290F722B007A675A /* LaunchScreen.storyboard */,
 				3341BCBD290F722B007A675A /* Info.plist */,
@@ -107,6 +110,14 @@
 				3341BCAF290F722A007A675A /* AppDelegate.swift */,
 			);
 			path = untouchables;
+			sourceTree = "<group>";
+		};
+		33A3FE48291436F4008C212D /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				33A3FE4B29147292008C212D /* NearestShop.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A3FE4A2914385A008C212D /* gpxgenerator_path.gpx in Resources */,
 				3341BCBC290F722B007A675A /* LaunchScreen.storyboard in Resources */,
 				3341BCB9290F722B007A675A /* Assets.xcassets in Resources */,
 				3341BCB7290F722A007A675A /* Main.storyboard in Resources */,
@@ -182,8 +194,8 @@
 			files = (
 				334A82E029119889008B83C6 /* HomeScreen VC.swift in Sources */,
 				334A82E62911AB30008B83C6 /* CustomCell TVCell.swift in Sources */,
+				33A3FE4C29147292008C212D /* NearestShop.swift in Sources */,
 				3341BCB0290F722A007A675A /* AppDelegate.swift in Sources */,
-				334A82E42911A6A6008B83C6 /* NearestShop VC.swift in Sources */,
 				3341BCB2290F722A007A675A /* SceneDelegate.swift in Sources */,
 				334A82DA29118FF0008B83C6 /* Candy.swift in Sources */,
 				334A82D829118B87008B83C6 /* candyModel.swift in Sources */,
